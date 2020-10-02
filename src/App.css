@@ -1,0 +1,65 @@
+body {
+    background-color: darkgray;
+    font-family: "Architects Daughter", cursive;
+}
+
+.app {
+    min-height: 500px;
+    width: 400px;
+    height: auto;
+    margin: 40px auto;
+    background: #f1f5f8 radial-gradient(#bfc0c1 7.2%, transparent 0);
+    background-size: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px #00000040;
+    padding: 1rem;
+    box-sizing: border-box;
+    font-family: "Architects Daughter", cursive;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.heading h1 {
+    transform: rotate(-3deg);
+    padding: 0.2rem 1.2rem;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    background-color: burlywood;
+    font-size: 1.5rem;
+}
+
+#to-do-form input {
+    background-color: lightslategray;
+    border: 0;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Architects Daughter", cursive;
+}
+
+#to-do-form input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Architects Daughter", cursive;
+}
+
+#to-do-form input:focus, #to-do-form button:focus {
+    outline: none;
+}
+
+#to-do-form button {
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    border: 0;
+    background-color: black;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #fff;
+}

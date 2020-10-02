@@ -1,0 +1,39 @@
+.list {
+    color: #fff;
+    width: 300px;
+    background-color: darkgray;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+    font-family: "Architects Daughter", cursive;
+}
+
+.list p {
+    padding: 10px;
+    position: relative;
+    font-family: "Architects Daughter", cursive;
+}
+
+.list p span {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-family: "Architects Daughter", cursive;
+}
+
+.faicons {
+    margin: 0 5px;
+    font-size: 15px;
+}
+
+.list p input{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    font-family: "Architects Daughter", cursive;
+}
+
+.list p input:focus{
+    outline: none;
+}
